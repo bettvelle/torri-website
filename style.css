@@ -1,0 +1,233 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+} */
+
+body {
+    background-color: #222;
+    color: white;
+}
+
+
+.header {
+	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG-20250129-WA0083.jpg);
+	background-position: center;
+	background-size: auto;
+    text-align: center;
+}
+.header h1 {
+    margin-bottom: 10px;
+}
+.header nav ul {
+    list-style: none;
+    padding:0px;
+	display: flex;
+	margin: 20px 0px;
+}
+.header nav ul li {
+    display: flex;
+}
+.header nav ul li a {
+	padding: 12px 10px;
+	text-decoration: none;
+	margin: 20px;
+	font-size: 25px;
+	color: white;
+    text-decoration: none;
+	transition: all .2s ease;
+	text-align: center;
+}
+.header nav ul li a:hover{
+	color: #fff;
+	width: 0;
+	transform: scale(1.2);
+}
+
+
+.services {
+    padding: 150px;
+    text-align: center;
+    background-color: black;
+}
+.services h2 {
+	font-size: 50px;
+	font-weight: bold;
+}
+.service h3{
+    font-size: 15px;
+}
+
+.service-cards {
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+}
+.card {
+	display: flex;
+	flex-direction:column;
+    background-color: #333;
+    padding: 15px;
+    margin: 10px;
+    width: 200px;
+	height: 200px;
+	border: 1px solid;
+    border-radius: 20px;
+	align-items: center;
+	text-align: justify;
+	background-size: 100% 200%; 
+	transition: all .1s;
+	background: linear-gradient(to top,rgba(255,45,45)50%, 50%);
+}
+.card:hover{
+	border:solid white;
+	box-shadow: 0 0 0 20px rgba (255,45,45);
+
+}
+
+
+#projects {
+    padding: 20px;
+    background-color: #333;
+}
+
+.projects h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.project-gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 5px;
+    padding: 20px;
+}
+
+.project-gallery h1 {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.project-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This ensures images cover their containers and are not distorted */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-gallery img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.contact {
+    padding: 40px 20px;
+    background-color: #000;
+    text-align: center;
+}
+.contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 0 auto;
+}
+.contact input, .contact textarea, .contact button {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1em;
+}
+.contact button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 1.2em;
+}
+
+/* {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+    background-color: var(--second-bg-color);
+    } */
+
+    .footer .social{
+    text-align: center;
+    padding-bottom: 20px;
+    color: var(--main-color);
+    }
+    .footer .social a
+    {
+    font-size: 25px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    margin: 0 10px;
+    transition: 0.3s ease-in-out;
+    }
+    .footer .social a:hover{
+    transform: scale(1.2)translateY(-10px);
+    background-color: var(--main-color);
+    color: #ee7878;
+    box-shadow: 0 0 25px var(--main-color);
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #ffd700;
+        color: #000;
+    }
+    
+    footer ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+    
+    footer ul li {
+        margin: 0 15px;
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .recipes-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+
+
+
+
+
+
+
+
