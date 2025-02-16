@@ -12,7 +12,7 @@ body {
 
 
 .header {
-	background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(IMG-20250129-WA0083.jpg);
+	background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(IMG-20250129-WA0083.jpg);
 	background-position: center;
 	background-size: auto;
     text-align: center;
@@ -132,6 +132,7 @@ body {
     padding: 40px 20px;
     background-color: #000;
     text-align: center;
+    
 }
 .contact form {
     display: flex;
@@ -139,18 +140,19 @@ body {
     max-width: 400px;
     margin: 0 auto;
 }
+
+
 .contact input, .contact textarea, .contact button {
     margin: 10px 0;
     padding: 10px;
     font-size: 1em;
 }
 .contact button {
-    background-color: #333;
-    color: #fff;
+    background-color:#000;
+    color: #000;
     border: none;
     cursor: pointer;
 }
-
 
 .footer {
     background-color: #222;
@@ -160,13 +162,7 @@ body {
     font-size: 1.2em;
 }
 
-/* {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    padding: 40px 0;
-    background-color: var(--second-bg-color);
-    } */
+
 
     .footer .social{
     text-align: center;
@@ -217,11 +213,7 @@ body {
         color: white;
     }
     
-    .recipes-grid {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
-    }
+    
 
 
 
